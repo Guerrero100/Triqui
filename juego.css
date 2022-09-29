@@ -7,7 +7,8 @@
     height: 100vh;
     background-color: rgb(59, 88, 59);
     float: left;
-    border-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 
 }
 
@@ -16,7 +17,8 @@
     height: 100vh;
     background-color: rgb(59, 88, 59);
     float: right;
-    border-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
     
     
 }
@@ -27,6 +29,7 @@
     background-color: rgb(255, 255, 255);
     margin-top: 80px;
     margin-left: 85px;
+    border-radius: 500px;
 }
 
 .img2{
@@ -35,6 +38,7 @@
     background-color: rgb(255, 255, 255);
     margin-top: 80px;
     margin-left: 150px;
+    border-radius: 500px;
 }
 
 .juego{
@@ -52,6 +56,7 @@
     height: 366px;
     background-color: rgb(0, 0, 0);
     float: left;
+    margin: 25%;
 }
 
 
@@ -65,8 +70,95 @@
     0 0 20px rgb(220, 211, 211),
     0 0 20px rgb(223, 223, 223),
     0 0 40px rgb(0, 0, 0),
-    0 0 40px rgb(0, 0, 0);
-    ;
+    0 0 40px rgb(0, 0, 0);;
 }
 
+
+.nombre{
+    width: 30%;
+    height: 3vh;
+    background-color: rgb(28, 46, 28);
+    border-radius: 6px;
+    font-family: cursive;
+    color: #ffff;
+    margin-top: 5%;
+    padding-left: 80px;
+    padding-top: 10px;
+    margin-left: 100px;
+}
+
+.nombre2{
+    width: 30%;
+    height: 3vh;
+    font-family: cursive;
+    background-color: rgb(28, 46, 28);
+    border-radius: 6px;
+    color: #ffff;
+    margin-top: 5%;
+    padding-left: 80px;
+    padding-top: 10px;
+    margin-left: 160px;
+}
+
+.fav{
+    width: 100%;
+}
+
+.fav2{
+    width: 100%;
+}
+
+.puntos-jugador{
+    width: 35%;
+    height: 8vh;
+    background-color: rgb(28, 46, 28);
+    border-radius: 6px;
+    font-family: cursive;
+    color: #ffff;
+    margin-top: 5%;
+    padding-left: 60px;
+    padding-top: 10px;
+    margin-left: 100px;
+}
+
+.puntos-jugador2{
+    width: 35%;
+    height: 8vh;
+    font-family: cursive;
+    background-color: rgb(28, 46, 28);
+    border-radius: 6px;
+    color: #ffff;
+    margin-top: 5%;
+    padding-left: 60px;
+    padding-top: 10px;
+    margin-left: 160px;
+}
+
+.tiempo{
+    width: 30%;
+    height: 6vh;
+    font-family: cursive;
+    background-color: rgb(28, 46, 28);
+    border-radius: 6px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffff;
+    margin-top: 5%;
+    padding-left: 85px;
+    padding-top: 10px;
+    margin-left: 100px;
+}
+
+.tiempo2{
+    width: 30%;
+    height: 6vh;
+    font-family: cursive;
+    background-color: rgb(28, 46, 28);
+    border-radius: 6px;
+    color: #ffff;
+    margin-top: 5%;
+    padding-left: 80px;
+    padding-top: 10px;
+    margin-left: 160px;
+
+}
 
